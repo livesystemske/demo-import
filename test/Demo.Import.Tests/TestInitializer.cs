@@ -4,7 +4,6 @@ using System.Threading;
 using System.Threading.Tasks;
 using Demo.Import.Application.Bills.Commands.Handlers;
 using Demo.Import.Domain.Bills.Events;
-using Demo.Import.Tests.Bills;
 using MediatR;
 using Microsoft.Extensions.DependencyInjection;
 using NUnit.Framework;
