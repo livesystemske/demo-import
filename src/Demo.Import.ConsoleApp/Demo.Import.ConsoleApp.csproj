@@ -33,4 +33,9 @@
       <ProjectReference Include="..\Demo.Import\Demo.Import.csproj" />
     </ItemGroup>
 
+    <ItemGroup>
+        <Reference Include="Demo.Messaging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+            <HintPath>..\..\libs\Demo.Messaging.dll</HintPath>
+        </Reference>
+    </ItemGroup>
 </Project>
